@@ -6,6 +6,7 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.mikseros.employeemanager.exception.UserNotFoundException;
 import com.mikseros.employeemanager.model.Employee;
 import com.mikseros.employeemanager.repo.EmployeeRepo;
 
